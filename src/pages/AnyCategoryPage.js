@@ -24,9 +24,9 @@ const AnyCategoryPage = () => {
   
 
   return (
-    <div className="Page_height" id="BodyVh">
+    <div className="Page_height Page_background List_layout" id="BodyVh">
       
-      {ItemList.map(itemList=>(<AnyCategoryCard key={itemList.items_id} id={itemList.items_id} CategoryId={params.id} item_name={itemList.name}/>))}
+      {ItemList.map(itemList=>(<AnyCategoryCard key={itemList.items_id} id={itemList.items_id} CategoryId={params.id} item_name={itemList.name} img={itemList.img}/>))}
 
     </div>
   )

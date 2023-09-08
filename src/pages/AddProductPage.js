@@ -70,7 +70,7 @@ function AddProductPage()
 
     return (
         
-<div id="BodyVh">
+<div id="BodyVh" className='Page_background'>
   <form onSubmit={handleSubmit}>
      
         <div>

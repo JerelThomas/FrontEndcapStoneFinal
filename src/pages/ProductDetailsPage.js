@@ -25,8 +25,8 @@ const ProductDetailsPage = () => {
 
 
   return (
-    <div className="Page_height" id="BodyVh">
-      <ProductDescriptionCard key={ItemList.items_id} item_name={ItemList.name} Description={ItemList.product_description} price={ItemList.price} quantity={ItemList.current_quantity}/>
+    <div className="Page_height Page_background" id="BodyVh">
+      <ProductDescriptionCard key={ItemList.items_id} item_name={ItemList.name} Description={ItemList.product_description} price={ItemList.price} quantity={ItemList.current_quantity} img={ItemList.img}/>
     </div>
   )
 }

@@ -21,10 +21,13 @@ const BestSellerSection = () => {
     },[]);
   
     return (
-      <div>
-              <h2>BestSellerSection</h2>
-              <div className="default_grid">
-                {AllBestSellerList.slice(0,4).map(allBestSellerList=>(<Bestsellercard key={allBestSellerList.items_id} id={allBestSellerList.items_id} item_name={allBestSellerList.name}/>))}
+      <div className='Bestseller_background'>
+        <div>
+          <h2>BestSellerSection</h2>
+        </div>
+              
+              <div className='homepage_grid' >
+                {AllBestSellerList.slice(0,4).map(allBestSellerList=>(<Bestsellercard key={allBestSellerList.items_id} id={allBestSellerList.items_id} item_name={allBestSellerList.name} img={allBestSellerList.img}/>))}
               </div>
       </div>
     )

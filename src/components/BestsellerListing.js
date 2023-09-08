@@ -21,8 +21,8 @@ const BestSellerListing = () => {
   },[]);
   
   return (
-    <div  className="Page_height">
-      {AllBestsellers.map(allBestsellers=>(<Bestsellercard key={allBestsellers.items_id} id={allBestsellers.items_id} item_name={allBestsellers.name}/>))}
+    <div  className="Page_height List_layout">
+      {AllBestsellers.map(allBestsellers=>(<Bestsellercard key={allBestsellers.items_id} id={allBestsellers.items_id} item_name={allBestsellers.name} img={allBestsellers.img}/>))}
 
     </div>
   )

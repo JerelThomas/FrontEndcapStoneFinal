@@ -127,12 +127,13 @@ a
 
 
 .Footer {
-    background-color: darkblue;
+    background-color: #154c79;
     color: orange;
     text-align: center;
     padding: 8px 0 8px 0 ;
     position:relative;
     width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
 
@@ -217,4 +218,39 @@ a
   }
   
  
+  .homepage_grid
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+
+  }
+
+  .Category_background
+  {
+    background-color: #154c79;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: snow;
+  }
+
+  .Category_background h2
+  {
+    text-align: center;
+    margin: 26px;
+  }
+
+
+  .Bestseller_background
+  {
+    background-color: #2596be;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  .Bestseller_background h2
+  {
+    text-align: center;
+    margin: 26px;
+
+  }
+
   

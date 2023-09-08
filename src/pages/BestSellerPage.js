@@ -4,7 +4,7 @@ function BestSellerPage()
 
 
     return (
-        <div id="BodyVh">
+        <div id="BodyVh" className='Page_background'>
             <h1>BestSellers</h1>
             <BestSellerListing/>
         </div>

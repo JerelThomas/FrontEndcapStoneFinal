@@ -2,14 +2,14 @@ import React from 'react'
 import Stove_pic from"../assests/images/pans.jpg"
 
 
-const ProductDescriptionCard = ({item_name,Description,price,quantity}) => {
+const ProductDescriptionCard = ({item_name,Description,price,quantity,img}) => {
   return (
-    <div>
+    <div className="Category_Card">
         <div>
-        <img src={Stove_pic} alt="stove"/>
+        <img src={img} alt="stove"/>
 
         </div>
-        <div>
+        <div className='item_data'>
             <p>Name:{item_name}</p><br/>
 
             <p>Description:{Description}</p><br/>

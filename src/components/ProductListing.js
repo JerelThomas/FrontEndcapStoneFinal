@@ -22,8 +22,8 @@ const ProductListing = () => {
   },[]);
   
   return (
-    <div  className="Page_height">
-      {AllItemList.map(allItemList=>(<ProductCard key={allItemList.items_id} id={allItemList.items_id} item_name={allItemList.name}/>))}
+    <div  className="Page_height List_layout" > 
+      {AllItemList.map(allItemList=>(<ProductCard key={allItemList.items_id} id={allItemList.items_id} item_name={allItemList.name} img={allItemList.img}/>))}
 
     </div>
   )

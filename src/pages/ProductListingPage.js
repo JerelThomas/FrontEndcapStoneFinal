@@ -4,7 +4,7 @@ function ProductListingPage()
 
 
     return (
-        <div id="BodyVh">
+        <div id="BodyVh" className='Page_background'>
         <h1>Product Listing Page</h1>
 
         <ProductListing/>
